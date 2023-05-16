@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Barbería King</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1><img src="img/logo.png" alt="Logotipo Barbería" class="logotipo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-contact">
+            <form>
+                <div id="datos">
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" class="input-padron" required>
+
+                    <label for="mail">Mail</label>
+                    <input type="email" id="mail" class="input-padron" required placeholder="ejemplo: juan@mail.com">
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" class="input-padron" required placeholder="Ejemplo: 55-5555-5555">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea cols="70" rows="10" id="mensaje" required></textarea>
+                </div>
+
+                <fieldset>
+                    <legend>Elija medio de contacto</legend>
+                    <label for="radio-mail"><input type="radio" name="contacto" value="Email"
+                            id="radio-mail">Email</label>
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
+                            id="radio-telefono">Teléfono</label>
+                    <label for="radio-whats"><input type="radio" name="contacto" value="WhatsApp" id="radio-whats"
+                            checked>WhatsApp</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Horario de preferencia para atención:</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría suscribirse para recibir más
+                    novedades?</label>
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+            </form>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Días</th>
+                    <th>Horario</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>8:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>8:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>8:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>8:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>9:00 - 17:00</td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+    </main>
+
+    <footer>
+        <img src="img/logo.png" alt="Logotipo Barbería">
+        <p class="copy">&copy Copyright Barbería King 2023</p>
+    </footer>
+</body>
+
+</html>
