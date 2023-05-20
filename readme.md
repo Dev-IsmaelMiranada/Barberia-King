@@ -1,6 +1,6 @@
 # My First Responsive Web Page (Barbería King)
-This is a simple responsive web page built using pure HTML and CSS. 
-The primary goal of this project was to create a website that adapts and displays properly across various devices and screen sizes.
+This is a simple responsive website built using pure HTML and CSS. The main goal of this project was to create a website that would adapt and display correctly on different devices and screen sizes.
+It was developed thanks to the programme and mentoring provided by: **Alura and Oracle ONE next education.**
 
 ## Technologies Used
 HTML: HyperText Markup Language was used to structure the content of the web page.
@@ -34,3 +34,22 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ## Acknowledgements
 I would like to acknowledge the various online resources, tutorials, and documentation that helped me in creating this responsive web page using pure HTML and CSS. Without the support of the web development community, this project would not have been possible.
+
+---
+
+# Captures
+### 💻 PC Version
+### Landing page
+<a href="https://postimg.cc/ygnwpGXp" target="_blank"><img src="https://i.postimg.cc/d3Kw3P7F/index.jpg" alt="index"/></a><br/><br/>
+### Services page
+<a href="https://postimg.cc/1nykHS6N" target="_blank"><img src="https://i.postimg.cc/63ZBB5pz/servicios.jpg" alt="servicios"/></a><br/><br/>
+### Contact page
+<a href="https://postimg.cc/8Fd8McFS" target="_blank"><img src="https://i.postimg.cc/1z29xNsf/contacto.jpg" alt="contacto"/></a><br/><br/>
+
+### 📲 Responsive
+### Landing page
+[![image.png](https://i.postimg.cc/d1hj1pb5/image.png)](https://postimg.cc/jwr73gdf)
+### Services page
+[![image.png](https://i.postimg.cc/9MwyVT9S/image.png)](https://postimg.cc/N9YKkKp7)
+### Contact page
+[![image.png](https://i.postimg.cc/Y2gQs6ML/image.png)](https://postimg.cc/4nfKKhKX)
